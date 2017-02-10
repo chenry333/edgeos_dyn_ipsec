@@ -22,11 +22,11 @@ If changes are detected the ipsec configuration will be updated and the service 
 
 # Installation
 1. Copy the contents of this repo to /config/scripts/ on your EdgeOS installation.  Hierarchy should look like:
-  */config/scripts/post-config.d/strongswan_cron.sh
+  * /config/scripts/post-config.d/strongswan_cron.sh
   
-  */config/scripts/strongswan/strongswan_setup_cli.sh
+  * /config/scripts/strongswan/strongswan_setup_cli.sh
   
-  *...
+  * ...
 
 2. Edit the strongswan_setup.conf file to input your local and remote info
 
